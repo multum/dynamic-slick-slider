@@ -1,7 +1,7 @@
 # Dynamic Slick slider
 [![N|Solid](http://kenwheeler.github.io/slick/img/slick.gif)](http://kenwheeler.github.io/slick/)
 
-##Разширение Slick slider для аккуратного отображения множества элементов на меньших устройствах
+## Разширение Slick slider для аккуратного отображения множества элементов на меньших устройствах
 
 ```javascript
 // slickDynamic extension for Slick carousel by vereschak@gmail.com
