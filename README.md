@@ -1,6 +1,6 @@
 # Dynamic Slick slider
 [![N|Solid](http://kenwheeler.github.io/slick/img/slick.gif)](http://kenwheeler.github.io/slick/)
-
+[![N|Solid](Demo)](https://codepen.io/JoyZi/pen/LygBgr)
 ## Разширение Slick slider для аккуратного отображения множества элементов на меньших устройствах
 
 ```javascript
