@@ -5,7 +5,7 @@
 ## Разширение Slick slider для аккуратного отображения множества элементов на меньших устройствах
 
 ### Demo 
-(codepen.io/JoyZi/)](https://codepen.io/JoyZi/pen/LygBgr)
+[(codepen.io/JoyZi/)](https://codepen.io/JoyZi/pen/LygBgr)
 
 ```javascript
 // slickDynamic extension for Slick carousel by vereschak@gmail.com
