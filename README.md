@@ -6,6 +6,14 @@
 ### Demo 
 [codepen.io/JoyZi/](https://codepen.io/JoyZi/pen/LygBgr)
 
+### Extension settings
+
+Option | Type | Default 
+------ | ---- | ------- 
+maxWidth | number | 1024 
+getWidth | function | $( window ).width 
+
+
 ```javascript
 // slickDynamic extension for Slick carousel by vereschak@gmail.com
 ( function ( $ ) {
@@ -48,9 +56,4 @@ $( document ).ready( function () {
     } );
 });
 ```
-### Extension settings
 
-Option | Type | Default 
------- | ---- | ------- 
-maxWidth | number | 1024 
-getWidth | function | $( window ).width 
