@@ -33,12 +33,12 @@ getWidth | function | $( window ).width
                 } else if ( bs.getWidth() >= bs.maxWidth && self.hasClass( 'slick-slider' ) ) {
                     self.slick( 'unslick' );
                     self.attr( 'data-dynamic', 'offslider' );
-                };
+                }
             } );
         };
         ( function ( slider ) {
             $( window ).on( "resize", slider.resize.bind( slider ) );
-        } )( slider )
+        } )( slider );
         slider.resize();
         return slider;
     };
@@ -46,7 +46,7 @@ getWidth | function | $( window ).width
 
 $( document ).ready( function () {
     // $( slider ).slickDynamic( { slick settings }, { extension settings } );
-    $( ".current_items" ).slickDynamic( { 
+    $( ".current_items" ).slickDynamic( {
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
@@ -54,6 +54,7 @@ $( document ).ready( function () {
     }, {
         getWidth: viewport.width
     } );
-});
+} );
+
 ```
 
