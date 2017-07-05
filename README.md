@@ -44,6 +44,31 @@ getWidth | function | $( window ).width
     };
 } )( jQuery );
 
+// Viewport detection function
+var viewport = ( function () {
+    var obj = {};
+    obj.width = function () {
+        var e = window,
+            a = 'inner';
+        if ( !( 'innerWidth' in window ) ) {
+            a = 'client';
+            e = document.documentElement || document.body;
+        }
+        console.log( "width" );
+        return e[ a + 'Width' ];
+    };
+    obj.height = function () {
+        var e = window,
+            a = 'inner';
+        if ( !( 'innerWidth' in window ) ) {
+            a = 'client';
+            e = document.documentElement || document.body;
+        }
+        return e[ a + 'Height' ];
+    };
+    return obj;
+} )();
+
 $( document ).ready( function () {
     // $( slider ).slickDynamic( { slick settings }, { extension settings } );
     $( ".current_items" ).slickDynamic( {
